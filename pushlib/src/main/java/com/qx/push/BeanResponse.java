@@ -1,4 +1,4 @@
-package com.qx.push.bean;
+package com.qx.push;
 
 public class BeanResponse {
     private int code;

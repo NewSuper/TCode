@@ -1,8 +1,6 @@
-package com.qx.push.bean;
+package com.qx.push;
 
 import android.text.TextUtils;
-
-import com.qx.push.PushType;
 
 import java.util.ArrayList;
 
