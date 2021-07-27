@@ -1,14 +1,15 @@
 package com.qx.message;
 
 import android.os.Parcel;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import com.qx.imlib.QXIMClient;
 import com.qx.im.model.QXUserInfo;
+import com.qx.imlib.QXIMClient;
 import com.qx.imlib.utils.UUIDUtil;
 
 import java.util.Objects;
+
+import androidx.annotation.NonNull;
 
 
 public class Message extends Data implements Comparable<Message>, Cloneable {

@@ -27,12 +27,12 @@ import com.qx.imlib.utils.MessageConvertUtil
 import com.qx.imlib.utils.SharePreferencesUtil
 import com.qx.imlib.utils.encry.Key
 import com.qx.imlib.utils.http.*
-import com.qx.imlib.utils.mingan.SensitiveWordsUtils
+import com.qx.imlib.utils.sensitive.SensitiveWordsUtils
 import com.qx.imlib.utils.net.NetWorkMonitorManager
 import com.qx.it.protos.*
 import com.qx.message.*
+import com.qx.push.PushType
 import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.launch
 import org.greenrobot.eventbus.EventBus
 
@@ -471,7 +471,7 @@ internal class LibHandlerStub constructor(
                 )
                 //如果是群组，则清空会话@信息
                 if (conversationType == ConversationType.TYPE_GROUP) {
-                    //      IMDatabaseRepository.instance.updateConversationAtTO(targetId, "")
+                    //IMDatabaseRepository.instance.updateConversationAtTO(targetId, "")
                 }
             }
         }

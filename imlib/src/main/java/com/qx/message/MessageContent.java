@@ -1,7 +1,8 @@
 package com.qx.message;
 
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 
 /**
  * 所有消息类型基类
