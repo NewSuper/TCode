@@ -99,5 +99,6 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
 
     implementation 'com.birbit:android-priority-jobqueue:2.0.1'  //jobqueue队列，已过期，择期替换掉
-
+    implementation 'com.github.stuxuhai:jpinyin:1.1.8'   //简体-繁体识别库
+    api project(path: ':pushlib')
 }
