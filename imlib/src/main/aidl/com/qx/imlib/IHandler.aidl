@@ -129,4 +129,5 @@ interface IHandler {
 
     void rtcVideoParam(in RTCVideoParam param,IResultCallback callback);
     void openDebugLog();
+    Message getMessageById(String messageId);
 }

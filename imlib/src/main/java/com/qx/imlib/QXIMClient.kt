@@ -80,6 +80,10 @@ class QXIMClient private constructor() {
         fun init(context: Context, appKey: String, imServerUrl: String) {
             Holder.instance.initSdk(context, appKey, imServerUrl)
         }
+        @JvmStatic
+        fun setConnectionStatusListener(listener: ConnectionStatusListener) {
+            mConnectionStatusListener = listener
+        }
 
         @JvmStatic
         fun connect(token: String, callBack: ConnectCallBack?) {

@@ -1,6 +1,5 @@
 package com.qx.imlib.utils.file
 
-
 import java.io.File
 import java.io.FileInputStream
 import java.io.IOException
@@ -9,7 +8,6 @@ import kotlin.experimental.and
 
 object FileUtil {
 
-    var mIconMap = HashMap<String, Int>()
     var mFileTypes = HashMap<String?, String>()
     fun deleteFile(path: String?) {
         val file = File(path)
