@@ -1,3 +1,6 @@
 rootProject.name = "BlockCoin"
 include ':app'
 include ':imlib'
+include ':pushlib'
+include ':rtclib'
+include ':imui'
