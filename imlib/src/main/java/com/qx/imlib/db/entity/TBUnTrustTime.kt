@@ -44,4 +44,10 @@ class TBUnTrustTime {
             return unTrustTime
         }
     }
+
+    override fun toString(): String {
+        return "TBUnTrustTime(id=$id, ownerId='$ownerId', conversationType='$conversationType', targetId='$targetId', startTime=$startTime, endTime=$endTime)"
+    }
+
+
 }
