@@ -3,20 +3,24 @@ package com.qx.imlib.utils
 import com.qx.message.*
 
 class MessageCreator {
-    //发送文本消息
-    fun createTextMessage(conversationType:String,senderId:String,targetId:String,content:String,extra:String,
-    atTos:List<String>):Message{
+
+    /**
+     * 发送文本消息
+     */
+    fun createTextMessage(conversationType: String, senderId: String, targetId: String, content: String, extra: String, atTos: List<String>): Message {
+
         var textMessage = TextMessage.obtain(content)
         textMessage.extra = extra
-        var message = Message.obtain(senderId,targetId,conversationType,MessageType.TYPE_TEXT,textMessage)
+        var message = Message.obtain(senderId, targetId, conversationType, MessageType.TYPE_TEXT, textMessage)
         var atToMessage = arrayListOf<AtToMessage>()
-        for (at in atTos){
-            val at = AtToMessage(at,AtToMessage.ReadState.STATE_UN_READ)
+        for (at in atTos) {
+            val at = AtToMessage(at, AtToMessage.ReadState.STATE_UN_READ)
             atToMessage.add(at)
         }
         textMessage.atToMessageList = atToMessage
         return message
     }
+
     /**
      * 发送图片消息
      */
