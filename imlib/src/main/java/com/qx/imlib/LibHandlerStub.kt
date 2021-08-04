@@ -85,7 +85,14 @@ internal class LibHandlerStub constructor(
             throw e;
         }
     }
-
+    override fun getMessageById(messageId: String?): Message? {
+        var result = IMDatabaseRepository.instance.getMessageById(messageId!!)
+        var message: Message? = MessageConvertUtil.instance.convertToMessage(result!!)
+        if (message != null) {
+            Log.e(TAG, "getMessagesByConversationID: 查询消息ID为：" + messageId + "     查询结果为：" + message.timestamp)
+        }
+        return message
+    }
     override fun connectServer(
         token: String,
         imServerUrl: String,
