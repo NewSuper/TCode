@@ -5,14 +5,13 @@ import android.os.*
 import android.util.Log
 import android.view.SurfaceView
 import com.google.gson.Gson
-import com.qx.common.utils.VibratorUtils
-import com.qx.im.common.qlog.QLog
-import com.qx.im.common.qlog.QLogTrace
-import com.qx.im.core.network.tcp.QXIMClient
-import com.qx.im.core.util.ThreadPoolUtils
-import com.qx.im.core.util.TimeUtil
-import com.qx.im.core.util.UUIDUtil
 import com.qx.im.model.RTCServerConfig
+import com.qx.imlib.QXIMClient
+import com.qx.imlib.qlog.QLog
+import com.qx.imlib.qlog.QLogTrace
+import com.qx.imlib.utils.TimeUtil
+import com.qx.imlib.utils.UUIDUtil
+import com.qx.imlib.utils.VibratorUtils
 import com.qx.message.QXError
 import com.qx.message.rtc.RTCCandidate
 import com.qx.message.rtc.RTCJoined
@@ -20,28 +19,18 @@ import com.qx.message.rtc.RTCOffer
 import com.qx.message.rtc.RTCVideoParam
 
 class QXCallManager private constructor() {
-
-
     private val TAG = "QXCallManager"
-
     private lateinit var callEngine: QXCallEngine
     private var roomId: String = ""
-
     private lateinit var context: Context
-
     private var callSession: QXCallSession? = null
-
     private lateinit var workHandler: Handler
     private lateinit var handThread: HandlerThread
     private var isCalling = false
-
     private var userToken: String = ""
     private var serverHost: String = ""
-
-
     private var isNormalHangup = false
     private var cameraType = Const.FONT_FACTING
-
     private var callActionCountDown: CallActionCountDown? = null
     private var rtcConnectCountDown: RTCConnectCountDown? = null
 
@@ -562,7 +551,7 @@ class QXCallManager private constructor() {
 
     private fun hangUp(roomId: String,userId:String) {
         QLog.e(TAG, "hangUp roomId:$roomId,userid:$userId")
-        ThreadPoolUtils.run {
+      //  ThreadPoolUtils.run {
             QXIMClient.instance.hangUp(roomId, userId,object : QXIMClient.OperationCallback() {
 
                 override fun onSuccess() {
@@ -576,7 +565,7 @@ class QXCallManager private constructor() {
                 }
 
             })
-        }
+       // }
     }
 
 

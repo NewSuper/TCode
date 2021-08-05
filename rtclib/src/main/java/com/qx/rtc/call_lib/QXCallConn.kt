@@ -1,11 +1,10 @@
 package com.qx.rtc.call_lib
 
 import android.util.Log
-import com.qx.im.common.qlog.QLog
-import com.qx.im.common.qlog.QLogTrace
-import com.qx.im.core.network.tcp.QXIMClient
-
-import com.qx.im.core.util.TimeUtil.getTime
+import com.qx.imlib.QXIMClient
+import com.qx.imlib.qlog.QLog
+import com.qx.imlib.qlog.QLogTrace
+import com.qx.imlib.utils.TimeUtil.getTime
 import com.qx.message.QXError
 import com.qx.message.rtc.*
 import org.json.JSONObject
