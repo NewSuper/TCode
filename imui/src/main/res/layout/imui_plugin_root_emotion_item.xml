@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/chat_bottom_add_panel_button_size"
+        android:layout_height="@dimen/chat_bottom_add_panel_button_size"
+        android:background="@drawable/imui_selector_chat_bottom_add_bg"
+        android:padding="16dp"
+        android:src="@drawable/imui_ic_chat_gallery" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_4"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="2"
+        android:text="xxxx"
+        android:textColor="@color/chat_bottom_add_panel_text"
+        android:textSize="@dimen/chat_bottom_add_panel_text_size" />
+</LinearLayout>

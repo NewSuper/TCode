@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="235dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvEmoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/chat_emotion_emoji_action_bg"
+        android:duplicateParentState="true"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ivEmojiDel"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/imui_chat_emotion_del_selector" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ivEmojiSend"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/imui_chat_emotion_send_selector"
+            android:gravity="center"
+            android:text="@string/qx_chat_bottom_bar_send"
+            android:textColor="@color/imui_chat_emotion_send_selector"
+            android:textSize="@dimen/dp_12" />
+    </LinearLayout>
+
+
+</FrameLayout>
