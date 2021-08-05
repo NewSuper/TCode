@@ -68,5 +68,5 @@ dependencies {
     // vivo
     compileOnly files('libs/vivo_pushsdk-v2.9.0.0.aar')
     // xiaomi
-    implementation files('libs\\MiPush_SDK_Client_3_8_5.jar')
+    implementation files('libs\\MiPush_SDK_Client_4_2_0.jar')
 }
