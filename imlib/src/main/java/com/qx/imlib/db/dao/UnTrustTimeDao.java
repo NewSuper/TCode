@@ -1,5 +1,4 @@
 package com.qx.imlib.db.dao;
-
 import com.qx.imlib.db.entity.TBUnTrustTime;
 
 import java.util.List;

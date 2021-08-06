@@ -1,6 +1,7 @@
 package com.qx.imlib.db.entity
 
 import androidx.room.*
+import com.qx.im.model.UserInfoCache
 import com.qx.imlib.utils.UUIDUtil
 
 /**

@@ -84,28 +84,21 @@ class IMDatabaseRepository {
 
     fun calcUnTrustTime(conversationType: String, targetId: String, min: Long, max: Long) {
         Log.e(TAG, "calcUnTrustTime: ============ 历史消息后端查询成功，开始计算不信任时间窗:$min    $max")
-        unTrustTimeDao.startsWithAndUpdate(
-            conversationType, targetId, UserInfoCache.getUserId(), min, max)
-        unTrustTimeDao.endsWithAndUpdate(
-            conversationType, targetId, UserInfoCache.getUserId(), min, max)
-        //获取当前这个时间窗包含的消息窗列表
-        val list = unTrustTimeDao.containsWithAndUpdate(
-            conversationType, targetId, UserInfoCache.getUserId(), min, max)
+        unTrustTimeDao.startsWithAndUpdate(conversationType, targetId, UserInfoCache.getUserId(), min, max)
+        unTrustTimeDao.endsWithAndUpdate(conversationType, targetId, UserInfoCache.getUserId(), min, max)
+        var list = unTrustTimeDao.containsWithAndUpdate(conversationType, targetId, UserInfoCache.getUserId(), min, max)//获取当前这个时间窗包含的消息窗列表
         Log.e(TAG, "calcUnTrustTime:  包含在数据库的时间窗列表：$list")
         //如果list不为空，则说明不信任区域时间区间包含min和max，则需要拆分该时间区域一分为二，然后再删除该时间区域
         if (!list.isNullOrEmpty()) {
             for (time in list) {
-                Log.e(TAG, "calcUnTrustTime: 拿到的单条时间窗：" + time.toString())
-                var time1 = TBUnTrustTime.obtain(
-                    time.ownerId, time.conversationType, time.targetId, time.startTime, min)
-                var time2 = TBUnTrustTime.obtain(
-                    time.ownerId, time.conversationType, time.targetId, max, time.endTime)
+                Log.e(TAG, "calcUnTrustTime: 拿到的单条时间窗：$time")
+                var time1 = TBUnTrustTime.obtain(time.ownerId, time.conversationType, time.targetId, time.startTime, min)
+                var time2 = TBUnTrustTime.obtain(time.ownerId, time.conversationType, time.targetId, max, time.endTime)
                 unTrustTimeDao.insert(time1)
                 unTrustTimeDao.insert(time2)
                 unTrustTimeDao.delete(time.id)
-                QLog.e(TAG,
-                    "calcUnTrustTime: insert target:${targetId}, time1 start: ${time1.startTime} end:${time1.endTime}," +
-                            "time2 start:${time2.startTime} end: ${time2.endTime}, min:$min,max:$max, and delete: ${time.startTime}")
+                QLog.e(TAG, "calcUnTrustTime: insert target:${targetId}, time1 start: ${time1.startTime} end:${time1.endTime}," +
+                        "time2 start:${time2.startTime} end: ${time2.endTime}, min:$min,max:$max, and delete: ${time.startTime}")
             }
         }
         unTrustTimeDao.beContain(conversationType, targetId, UserInfoCache.getUserId(), min, max)
@@ -113,34 +106,35 @@ class IMDatabaseRepository {
 
     fun calcUnTrustTime2(conversationType: String, targetId: String, min: Long, max: Long) {
         //获取当前会话存在的所有时间窗集合
-        val currentConversationUnTrustTimes = unTrustTimeDao.getConversationAllUnTrustTimes(
-            conversationType,
-            targetId,
-            UserInfoCache.getUserId()
-        ) as List<TBUnTrustTime>
+        var currentConversationUnTrustTimes = unTrustTimeDao.getConversationAllUnTrustTimes(conversationType, targetId, UserInfoCache.getUserId()) as List<TBUnTrustTime>
+
         if (currentConversationUnTrustTimes.size < 2) {
             return
         }
+
         //合并时间窗
-        for (element in currentConversationUnTrustTimes) {
-            unTrustTimeDao.delete(element.id)//删除当前会话对应的时间窗
+        for (i in 0 until currentConversationUnTrustTimes.size) {
+            unTrustTimeDao.delete(currentConversationUnTrustTimes[i].id)//删除当前会话对应的时间窗
         }
+
         var result = arrayListOf<TBUnTrustTime>()
         var first = currentConversationUnTrustTimes[0]
         for (i in 1 until currentConversationUnTrustTimes.size) {
             val next: TBUnTrustTime = currentConversationUnTrustTimes[i]
-            //合并区见，时间精确到秒，（差1秒则为连续）
+            // 合并区间，时间精确到秒（差1秒则为连续）
             if (next.startTime <= first.endTime) {
+//                var timeTemp = TBUnTrustTime.obtain(first.ownerId, first.conversationType, first.targetId, first.startTime, (first.endTime).coerceAtLeast(next.endTime))
                 first.startTime = first.startTime
                 first.endTime = (first.endTime).coerceAtLeast(next.endTime)
             } else {
-                //没有交集，直接添加
+                // 没有交集，直接添加
                 result.add(first)
                 first = next
             }
         }
         result.add(first)
-        //将计算合并好时间窗，插入到数据库
+
+        //将计算合并好的时间窗，插入到数据库
         for (i in 0 until result.size) {
             unTrustTimeDao.insert(result[i])
         }
