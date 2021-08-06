@@ -1,0 +1,318 @@
+<resources>
+
+    <!--消息列表-->
+    <string name="qx_message_official_flag">공식</string>
+    <string name="qx_message_status_failed">!</string>
+
+    <string name="qx_message_voice_duration">%1$d″</string>
+
+    <string name="qx_message_call_canceled"> 취소됨</string>
+    <string name="qx_message_call_refuse">이미 수신이 거부되었습니다</string>
+    <string name="qx_message_call_error"> 접속 이상</string>
+    <string name="qx_message_call_interrupt">연결 끊기</string>
+    <string name="qx_message_call_not_responding">상대방 무응답 </string>
+    <string name="qx_message_call_accepted"> 통화 길이 %1$s</string>
+    <string name="qx_message_call_busy">상대방이 바쁘다</string>
+
+    <string name="qx_str_not_openfile">열릴 수 있는 프로그램을 찾지 못했습니다</string>
+
+    <string name="qx_chat_bottom_bar_pressed_to_talk">누른 채 이야기 </string>
+    <string name="qx_chat_bottom_bar_send">보내기</string>
+    <string name="qx_chat_bottom_bar_send_tips_ban">해당 메시지에는 민감한 내용이 포함되어 있어 보낼 수 없습니다!</string>
+    <string name="qx_chat_bottom_bar_mute">전원 금언중</string>
+
+    <!--群公告-->
+    <string name="qx_chat_group_notice">군공지：%1$s</string>
+
+    <!--聊天UI底部添加面板-->
+    <string name="qx_chat_group_title">%1$s(%2$d)</string>
+
+    <!--聊天UI底部添加面板-->
+    <string name="qx_chat_add_panel_image_text">그래픽 테스트</string>
+    <string name="qx_chat_add_panel_gallery">앨범</string>
+    <string name="qx_chat_add_panel_shot">촬영</string>
+    <string name="qx_chat_add_panel_audio_call">음성통화</string>
+    <string name="qx_chat_add_panel_video_call">영상통화</string>
+    <string name="qx_chat_add_panel_location">위치</string>
+    <string name="qx_chat_add_panel_file">파일 </string>
+    <string name="qx_chat_add_panel_red_paper">레드백 </string>
+
+    <!--申请权限-->
+    <string name="qx_permission_ok">허용</string>
+    <string name="qx_permission_close">거부</string>
+    <string name="qx_permission_setting">설정 권한 신청 중 </string>
+    <string name="qx_permission_record_camera">녹음, 촬영, 지리적 위치 권한 획득 신청 중</string>
+
+    <!--图文消息类型-->
+    <string name="qx_image_text_type_social">커뮤니티 </string>
+    <string name="qx_image_text_type_activity">동적</string>
+    <string name="qx_image_text_type_live">라이브</string>
+    <string name="qx_image_text_type_recommend"> 추천</string>
+    <string name="qx_image_text_type_unknown">알 수 없음</string>
+
+    <!--消息长按弹框-->
+    <string name="qx_msg_pop_emoji">추가 </string>
+    <string name="qx_msg_pop_copy">복제</string>
+    <string name="qx_msg_pop_reply">회신 </string>
+    <string name="qx_msg_pop_retransmission">전송</string>
+    <string name="qx_msg_pop_favorite">모음</string>
+    <string name="qx_msg_pop_check">다선택</string>
+    <string name="qx_msg_pop_recall">철회 </string>
+    <string name="qx_msg_pop_delete">삭제 </string>
+
+    <string name="qx_msg_text_max_length">文本长度不能超过%1$d个字符</string>
+
+    <!--回复-->
+    <string name="qx_reply_text">%1$s：%2$s</string>
+    <string name="qx_reply_image">%1$s：[이미지]</string>
+    <string name="qx_reply_image_text">%1$s：[링크]%2$s</string>
+    <string name="qx_reply_audio">%1$s：[음성]</string>
+    <string name="qx_reply_video">%1$s：[비디오]</string>
+    <string name="qx_reply_file">%1$s：[파일]%2$s</string>
+    <string name="qx_reply_geo">%1$s：[위치]%2$s</string>
+    <string name="qx_reply_record">%1$s：[채팅 기록]</string>
+
+    <!--转发聊天记录-->
+    <string name="qx_record_tips">채팅 기록</string>
+    <string name="qx_record_title_private">%1$s및 %2$s에 대한 채팅 기록 </string>
+    <string name="qx_record_title_group">에 대한 채팅 기록 </string>
+    <string name="qx_record_item">%1$s：%2$s</string>
+
+    <string name="qx_name_record_btn_one_by_one">조목조목 전달 </string>
+    <string name="qx_name_record_btn_combine"> 병합 전달</string>
+    <string name="qx_name_record_btn_cancel">취소</string>
+
+
+    <string name="qx_target_name_system">시스템 메시지 </string>
+    <string name="qx_target_name_chatroom">채팅방 </string>
+
+    <string name="qx_target_name_image">[이미지]</string>
+    <string name="qx_target_name_image_text">[링크]%1$s</string>
+    <string name="qx_target_name_voice">[음성]</string>
+    <string name="qx_target_name_video">[영상]</string>
+    <string name="qx_target_name_file">[파일]%1$s</string>
+    <string name="qx_target_name_geo">[위치]%1$s</string>
+    <string name="qx_target_name_notice">[알림]%1$s</string>
+    <string name="qx_target_name_record">[채팅 기록]</string>
+    <string name="qx_target_name_call_audio">[음성통화]</string>
+    <string name="qx_target_name_call_video">[영상통화]</string>
+
+    <string name="qx_record_msg_type_voice">[음성]</string>
+    <string name="qx_record_msg_type_video"> 동영상 </string>
+    <string name="qx_at_to_all">모두</string>
+
+    <string name="qx_conversation_at_to_all">[@모두]</string>
+    <string name="qx_conversation_at_to_me">[누군가 @나]</string>
+
+    <string name="qx_send_failed">보내기 실패：%1$s</string>
+    <string name="qx_upload_failed">업로드 실패:：%1$s</string>
+    <string name="qx_download_failed">다운로드 실패：%1$s</string>
+
+    <string name="qx_file_uri_not_found">파일이 이동되어 파일을 찾을 수 없습니다</string>
+
+    <string name="qx_recall_by_user">메시지를 철회했습니다</string>
+    <string name="qx_recall_by_other">%1$s메시지를 철회했습니다</string>
+
+    <!--//通知消息类型 1),//加入聊天室	2),//退出聊天室	3),//群组解散 4),//群组同步  5),//群组创建
+    6),//加入群组7),//退出群组 8),//群组成员禁言（添加）9),//群组成员禁言（移除）10),//群组整体禁言（添加）11);//群组整体禁言（移除）-->
+    <string-array name="qx_notice_content">
+        <item>1,%1$s채팅방에 가입</item>
+        <item>2,%1$s채팅방 탈퇴</item>
+        <item>3,그룹 채팅은 해체됨</item>
+        <item>4,그룹 채팅 동기화</item>
+        <item>5,%1$s그룹 채팅을 만들었습니다</item>
+        <item>6,%1$s그룹 채팅 가입</item>
+        <item>7,%1$s그룹 채팅 탈퇴</item>
+        <item>8,%1$s은(는) 이미 금지되어 있습니다</item>
+        <item>9,%1$s금언 제거됨</item>
+        <item>10,해당 군이 금언을 열었다</item>
+        <item>11,해당 군이 금언 해제</item>
+        <item>12,%1$s단체 채 팅 을 당 했 어 요.</item>
+    </string-array>
+
+    <string-array name="qx_day">
+        <item>일요</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토요일</item>
+    </string-array>
+
+
+    <string name="qx_cancel">취소</string>
+    <string name="qx_send">보내기 </string>
+    <string name="qx_back">반환</string>
+    <string name="qx_hint"> 팁 </string>
+    <string name="qx_confirm">확정</string>
+    <string name="qx_save">저장</string>
+    <string name="qx_permission_request">권한을 신청해주세요</string>
+
+    <string name="qx_duration">기간</string>
+    <string name="qx_date">날짜</string>
+    <string name="qx_time">시간</string>
+    <string name="qx_time_early_moning">새벽</string>
+    <string name="qx_time_moning">아침</string>
+    <string name="qx_time_noon">낮</string>
+    <string name="qx_time_afternoon">오후</string>
+    <string name="qx_time_night">밤</string>
+    <string name="qx_time_yesterday">어제%s</string>
+    <string name="qx_time_format">M/d/ HH:mm</string>
+    <string name="qx_time_format_1">yyyy/M/d HH:mm</string>
+    <string name="qx_time_format_2">M/d</string>
+    <string name="qx_time_format_3">yyyy/M/d</string>
+
+    <string name="qx_record_audio_release_send">발송 풀기</string>
+    <string name="qx_record_audio_press">누른 채 이야기하기</string>
+    <string name="qx_record_audio_end">녹음 종료:</string>
+    <string name="qx_record_time_short">녹음 시간이 너무 짧다</string>
+    <string name="qx_record_finger_slideup_cancel_send">손가락에 미끄러져 발송 취소</string>
+    <string name="qx_record_audio_release_cancel_send">손가락을 풀고 발송 취소</string>
+    <string name="qx_record_audio_slideup_cancel_send">손가락을 풀고 손가락이 미끄러져 발송 취소</string>
+
+    <string name="qx_delete_success">삭제 성공</string>
+    <string name="qx_delete_fail">삭제 실패</string>
+
+    <string name="qx_input_ing"> 상대방이 입력 중..</string>
+    <string name="qx_message_system">시스템 메시지</string>
+    <string name="qx_message_broadcast">【방송소식】</string>
+    <string name="qx_message_delete_remote_success">원격 메시지 삭제 성공</string>
+    <string name="qx_message_delete_remote_fail">원격 메시지 삭제 실패 </string>
+    <string name="qx_message_recall">메시지 철회</string>
+    <string name="qx_message_not_support">알 수 없는 유형 메시지 </string>
+    <string name="qx_message_unread_atto">누군가 @ 난</string>
+    <string name="qx_message_unread_msg">%1$d개의 읽지 않은 메시지</string>
+
+    <string name="qx_provider_collect_not_implement">모음 제공자가 설정되지 않았습니다</string>
+    <string name="qx_provider_chat_bg_not_implement">채팅 배경 제공자가 설정되지 않았습니다</string>
+    <string name="qx_provider_upload_not_implement">업로드 공급자가 설정되지 않았습니다</string>
+
+    <string name="qx_error_param"> 반환된 세션 유형이 잘못되었습니다：%s</string>
+    <string name="qx_error_location_data">위치 메시지가 비어 있습니다 </string>
+
+    <string name="qx_copy_success">복제 성공</string>
+    <string name="qx_copy_fail">복사 실패: 비문자 메시지 </string>
+
+    <string name="qx_collect_success">모음 성공</string>
+    <string name="qx_collect_fail">모음 실패</string>
+    <string name="qx_recall_fail">철회 실패, 오류 코드: %1$d 오류 메시지: %2$s</string>
+
+    <string name="qx_open_other_app"> 다른 앱으로 열기</string>
+    <string name="qx_open_file_not_support_open">이 형식 파일을 열 수 없습니다.</string>
+
+    <string name="qx_download_fail">다운로드 실패: %1$d, %2$s</string>
+    <string name="qx_download_done">다운로드 완료</string>
+    <string name="qx_download_save_path">저장됨: %s</string>
+
+    <string name="qx_forbid">당신은 이미 금지되어 있어서 당분간 메시지를 보낼 수 없습니다 </string>
+    <string name="qx_group_forbid_all_joined"> 여러분은 이미 전역적으로 금지되어 있고 가입한 무리에서 메시지를 보낼 수 없습니다 </string>
+    <string name="qx_group_forbid_open">본군은 전체 금언을 켜서 모든 사람이 메시지를 보낼 수 없습니다</string>
+    <string name="qx_group_forbid">당신은 이미 금지되어 있어 본군에서 메시지를 보낼 수 없습니다</string>
+
+    <string name="qx_chatroom_forbid_exit">당신은 차단되었고 채팅방에서 차출되었습니다 </string>
+    <string name="qx_chatroom_forbid_join">당신은 접촉이 차단되어 채팅방에 계속 가입할 수 있습니다</string>
+    <string name="qx_chatroom_destory">채팅방이 파기되었습니다</string>
+    <string name="qx_chatroom_forbid_all_joined">전역적으로 금지되어 있고, 가입한 채팅방에서 메시지를 보낼 수 없습니다</string>
+    <string name="qx_chatroom_forbid_everyone">여러분은 이미 금언했고, 본 채팅방에서도 메시지를 보낼 수 없습니다 </string>
+
+    <string name="qx_geo_screenshot_fail">지도 캡쳐 실패</string>
+    <string name="qx_geo_pick_location">위치 선택</string>
+    <string name="qx_geo_infomation">위치 정보</string>
+
+    <string name="qx_upload_fail">업로드 실패. 오류 코드: %1$d 오류 메시지: %2$s</string>
+
+    <string name="qx_emotion_add">표정 추가</string>
+
+    <string name="qx_voip_time"> 채팅 기간: </string>
+
+    <string name="qx_is_exist">가 이미 있습니다</string>
+
+    <string name="qx_voip_occupying">사운드 채널이 점유됩니다. 나중에 다시 시도하십시오</string>
+
+    <string name="qx_permission_grant_needed">설정에서 권한을 열어야 합니다</string>
+    <string name="qx_permission_microphone">（마이크）。</string>
+    <string name="qx_permission_microphone_and_camera">（마이크, 카메라）。</string>
+    <string name="qx_permission_camera">（카메라）。</string>
+
+    <string name="qx_image_default_saved_path">/TQXD/QXIM/Image/</string>
+    <string name="qx_video_default_saved_path">/TQXD/QXIM/Video/</string>
+    <string name="qx_file_default_saved_path">/TQXD/QXIM/File/</string>
+
+    <string name="qx_picprev_origin">원도</string>
+    <string name="qx_picprev_origin_size">원도(%s)</string>
+    <string name="qx_picprev_select">선택</string>
+    <string name="qx_picsel_catalog_allpic">모든 그림</string>
+    <string name="qx_picsel_catalog_number">%d장</string>
+    <string name="qx_picsel_pictype">그림과 동영상</string>
+    <string name="qx_picsel_selected_max_gif_size_span_with_param"> GIF 그림 크기가 너무 커서 보낼 수 없습니다</string>
+    <string name="qx_picsel_selected_max_pic_count">최대 9개의 이미지만 선택할 수 있습니다</string>
+    <string name="qx_picsel_selected_max_time_span">5분 이상의 영상 공유 불가</string>
+    <string name="qx_picsel_selected_max_time_span_with_param">%d분 이상의 영상 공유 불가</string>
+    <string name="qx_picsel_take_picture">사진 촬영</string>
+    <string name="qx_picsel_toolbar">그림과 동영상 </string>
+    <string name="qx_picsel_toolbar_preview">미리보기</string>
+    <string name="qx_picsel_toolbar_preview_num">미리보기(%d)</string>
+    <string name="qx_picsel_toolbar_send">미리보기(</string>
+    <string name="qx_picsel_toolbar_send_num">미리보기((%d/9)</string>
+    <string name="qx_picsel_video_corrupted">손상된 영상을 공유할 수 없습니다 </string>
+    <string name="qx_authorities_fileprovider">.FileProvider</string>
+    <string name="qx_voip_cpu_error">죄송합니다만 해당 모델은 일시적으로 지원되지 않습니다</string>
+    <string name="qx_voip_call_audio_start_fail">음성 통화가 진행 중이니 나중에 다시 해보십시오</string>
+    <string name="qx_voip_call_video_start_fail">영상 통화가 진행 중이니 나중에 다시 해보십시오</string>
+
+    <string name="qx_msg_send_failed_no_access_group">당신은 이미 그 무리 밖으로 이동했다.</string>
+    <string name="qx_msg_send_failed_no_access_chat_room">당신은 이미 생방송으로 이동했습니다.</string>
+
+    <string name="qx_msg_send_failed_no_exist_group">이 집단은 이미 해산되었다.</string>
+    <string name="qx_msg_send_failed_no_exist_chat_room">생방송이 끝났어요</string>
+    <string name="qx_msg_send_failed_time_out">전송 시간 초과</string>
+    <string name="qx_msg_send_failed_mute">당신은 이미 금지되어 있다.</string>
+    <string name="qx_msg_send_failed_not_support_message_type">지원되지 않는 메시지 유형</string>
+    <string name="qx_msg_send_failed_content_too_long">메시지가 너무 길거나 너무 큽니다.</string>
+    <string name="qx_msg_send_failed_black_list">전송 실패</string>
+    <string name="qx_msg_send_failed_param_error">삼수!</string>
+    <string name="qx_error_duplicate_auth">중복되지 않는 인증</string>
+    <string name="qx_error_db_not_found">그 수를 찾을 수 없어</string>
+    <string name="qx_error_file_uri_not_found">파일을 찾을 수 없습니다.</string>
+    <string name="qx_error_recall_failed">철회 실패</string>
+
+    <string name="qx_group_remove_member_positive">그룹 채팅에서 %1$s 을(를) 이동했습니다.</string>
+    <string name="qx_group_remove_member_negative">%1$s 이(가) 그룹 채팅에서 이동했습니다.</string>
+    <bool name="qx_media_selector_contain_video">true</bool>
+    <bool name="qx_sound_in_foreground">false</bool>
+    <string name="qx_notification_channel_name">새 소식</string>
+    <string name="qx_notification_ticker_text">새 메시지가 있습니다.</string>
+    <string name="qx_notification_new_msg">[%1$d #개의 메시지]%2$s</string>
+    <string name="qx_notification_new_plural_msg">%1$d 명의 연락처가 %2$d 개의 메시지를 보냈습니다.</string>
+
+    <string name="take_photo_view_btn">사진을 찍고 비디오를 길게 누르세요. </string>
+
+    <!-- 导航相关-->
+    <string name="navigation_google">구글 맵. </string>
+    <string name="navigation_gaode">고덕지도. </string>
+    <string name="navigation_baidu">바이두 지도. </string>
+    <string name="navigation_tenxun">텐센트 지도. </string>
+    <string name="navigation_sogo">개 지도를 색출하다. </string>
+
+    <!-- 对话框提示-->
+    <string name="dialog_title_tips">힌트. </string>
+    <string name="dialog_content">기기에 아직 지도 관련 소프트웨어가 없습니다. 앱 마켓에서 다운로드하십시오. </string>
+    <string name="dialog_know">-알았어</string>
+
+    <!-- 边界值限定-->
+    <string name="qx_error_file_exceeded">파일은 %1$sM 을 초과할 수 없습니다.</string>
+    <string name="qx_error_video_exceeded">비디오는 %1$sM 을 초과할 수 없습니다.</string>
+    <string name="qx_error_image_exceeded">사진은 %1$sM 을 초과할 수 없습니다.</string>
+
+    <!-- 删除消息确认框-->
+    <string name="chat_confirm_dialog_title">메시지 삭제 다시 한 번 확인 부탁합니다.</string>
+    <string name="chat_file_detail_filesize">"파일 크기: %1$s. "</string>
+    <string name="chat_file_detail_download">"다운로드. "</string>
+    <string name="chat_file_detail_open">"열다. "</string>
+    <string name="qx_permission_manage_all_file">%s의 모든 파일에 대한 관리 권한을 부여하십시오. 그렇지 않으면 상관 관계를 제대로 사용할 수 없습니다.</string>
+    <string name="qx_un_support_message_type">이 작업은 메시지 유형에서 지원되지 않습니다.</string>
+
+    <string name="qx_loading">불러오는 중 …</string>
+    <string name="qx_load_fail">불러 오지 못했습니다</string>
+</resources>

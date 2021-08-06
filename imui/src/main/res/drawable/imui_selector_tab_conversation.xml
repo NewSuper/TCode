@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@mipmap/tab_conversation_pressed"/>
+    <item android:state_pressed="true" android:drawable="@mipmap/tab_conversation_pressed"/>
+    <item android:drawable="@mipmap/tab_conversation_normal"/>
+</selector>

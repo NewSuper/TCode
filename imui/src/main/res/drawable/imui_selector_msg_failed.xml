@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:layout_width="16dp" android:layout_height="16dp" android:state_pressed="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/message_status_failed_normal" />
+            <size android:width="@dimen/message_status_failed_size" android:height="@dimen/message_status_failed_size" />
+        </shape>
+    </item>
+    <item android:layout_width="16dp" android:layout_height="16dp" android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/message_status_failed_pressed" />
+            <size android:width="@dimen/message_status_failed_size" android:height="@dimen/message_status_failed_size" />
+        </shape>
+    </item>
+</selector>

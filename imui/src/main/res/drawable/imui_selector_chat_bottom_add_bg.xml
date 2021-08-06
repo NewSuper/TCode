@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/chat_bottom_add_panel_button_pressed"/>
+            <corners android:radius="@dimen/dp_10"/>
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/chat_bottom_add_panel_button_normal"/>
+            <corners android:radius="@dimen/dp_10"/>
+        </shape>
+    </item>
+</selector>
+

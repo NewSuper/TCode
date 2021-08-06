@@ -1,0 +1,317 @@
+<resources>
+
+    <!--消息列表-->
+    <string name="qx_message_official_flag">官方</string>
+    <string name="qx_message_status_failed">!</string>
+
+    <string name="qx_message_voice_duration">%1$d″</string>
+
+    <string name="qx_message_call_canceled">已取消</string>
+    <string name="qx_message_call_refuse">已拒接</string>
+    <string name="qx_message_call_error">连接异常</string>
+    <string name="qx_message_call_interrupt">连接断开</string>
+    <string name="qx_message_call_not_responding">对方无响应</string>
+    <string name="qx_message_call_accepted">通话时长 %1$s</string>
+    <string name="qx_message_call_busy">对方忙</string>
+
+    <string name="qx_str_not_openfile">没有找到可打开的程序</string>
+
+    <string name="qx_chat_bottom_bar_pressed_to_talk">按住说话</string>
+    <string name="qx_chat_bottom_bar_send">发送</string>
+    <string name="qx_chat_bottom_bar_send_tips_ban">该消息包含敏感内容，无法发送！</string>
+    <string name="qx_chat_bottom_bar_mute">全员禁言中</string>
+
+    <!--群公告-->
+    <string name="qx_chat_group_notice">群公告：%1$s</string>
+
+    <!--聊天UI底部添加面板-->
+    <string name="qx_chat_group_title">%1$s(%2$d)</string>
+
+    <!--聊天UI底部添加面板-->
+    <string name="qx_chat_add_panel_image_text">图文测试</string>
+    <string name="qx_chat_add_panel_gallery">相册</string>
+    <string name="qx_chat_add_panel_shot">拍摄</string>
+    <string name="qx_chat_add_panel_audio_call">语音通话</string>
+    <string name="qx_chat_add_panel_video_call">视频通话</string>
+    <string name="qx_chat_add_panel_location">位置</string>
+    <string name="qx_chat_add_panel_file">文件</string>
+    <string name="qx_chat_add_panel_red_paper">红包</string>
+
+    <!--申请权限-->
+    <string name="qx_permission_ok">允许</string>
+    <string name="qx_permission_close">拒绝</string>
+    <string name="qx_permission_setting">正在申请设置权限</string>
+    <string name="qx_permission_record_camera">正在申请录音、拍摄、获取地理位置权限</string>
+
+    <!--图文消息类型-->
+    <string name="qx_image_text_type_social">社区</string>
+    <string name="qx_image_text_type_activity">动态</string>
+    <string name="qx_image_text_type_live">直播</string>
+    <string name="qx_image_text_type_recommend">推荐</string>
+    <string name="qx_image_text_type_unknown">未知</string>
+
+    <!--消息长按弹框-->
+    <string name="qx_msg_pop_emoji">添加</string>
+    <string name="qx_msg_pop_copy">复制</string>
+    <string name="qx_msg_pop_reply">回复</string>
+    <string name="qx_msg_pop_retransmission">转发</string>
+    <string name="qx_msg_pop_favorite">收藏</string>
+    <string name="qx_msg_pop_check">多选</string>
+    <string name="qx_msg_pop_recall">撤销</string>
+    <string name="qx_msg_pop_delete">删除</string>
+
+    <string name="qx_msg_text_max_length">文本长度不能超过%1$d个字符</string>
+
+    <!--回复-->
+    <string name="qx_reply_text">%1$s：%2$s</string>
+    <string name="qx_reply_image">%1$s：[图片]</string>
+    <string name="qx_reply_image_text">%1$s：[链接]%2$s</string>
+    <string name="qx_reply_audio">%1$s：[语音]</string>
+    <string name="qx_reply_video">%1$s：[视频]</string>
+    <string name="qx_reply_file">%1$s：[文件]%2$s</string>
+    <string name="qx_reply_geo">%1$s：[位置]%2$s</string>
+    <string name="qx_reply_record">%1$s：[聊天记录]</string>
+
+    <!--转发聊天记录-->
+    <string name="qx_record_tips">聊天记录</string>
+    <string name="qx_record_title_private">%1$s和%2$s的聊天记录</string>
+    <string name="qx_record_title_group">群聊的聊天记录</string>
+    <string name="qx_record_item">%1$s：%2$s</string>
+
+    <string name="qx_name_record_btn_one_by_one">逐条转发</string>
+    <string name="qx_name_record_btn_combine">合并转发</string>
+    <string name="qx_name_record_btn_cancel">取消</string>
+
+
+    <string name="qx_target_name_system">系统消息</string>
+    <string name="qx_target_name_chatroom">聊天室</string>
+
+    <string name="qx_target_name_image">[图片]</string>
+    <string name="qx_target_name_image_text">[链接]%1$s</string>
+    <string name="qx_target_name_voice">[语音]</string>
+    <string name="qx_target_name_video">[视频]</string>
+    <string name="qx_target_name_file">[文件]%1$s</string>
+    <string name="qx_target_name_geo">[位置]%1$s</string>
+    <string name="qx_target_name_notice">[通知]%1$s</string>
+    <string name="qx_target_name_record">[聊天记录]</string>
+    <string name="qx_target_name_call_audio">[语音通话]</string>
+    <string name="qx_target_name_call_video">[视频通话]</string>
+
+    <string name="qx_record_msg_type_voice">[语音]</string>
+    <string name="qx_record_msg_type_video">视频</string>
+    <string name="qx_at_to_all">所有人</string>
+
+    <string name="qx_conversation_at_to_all">[@所有人]</string>
+    <string name="qx_conversation_at_to_me">[有人@我]</string>
+
+    <string name="qx_send_failed">发送失败：%1$s</string>
+    <string name="qx_upload_failed">上传失败：%1$s</string>
+    <string name="qx_download_failed">下载失败：%1$s</string>
+
+    <string name="qx_file_uri_not_found">该文件已移动位置，无法找到该文件</string>
+
+    <string name="qx_recall_by_user">你已撤回一条消息</string>
+    <string name="qx_recall_by_other">%1$s已撤回一条消息</string>
+
+    <!--//通知消息类型 1),//加入聊天室	2),//退出聊天室	3),//群组解散 4),//群组同步  5),//群组创建
+    6),//加入群组7),//退出群组 8),//群组成员禁言（添加）9),//群组成员禁言（移除）10),//群组整体禁言（添加）11);//群组整体禁言（移除）-->
+    <string-array name="qx_notice_content">
+        <item>1,%1$s加入了聊天室</item>
+        <item>2,%1$s退出了聊天室</item>
+        <item>3,群聊已解散</item>
+        <item>4,群聊同步</item>
+        <item>5,%1$s创建了群聊</item>
+        <item>6,%1$s加入了群聊</item>
+        <item>7,%1$s退出了群聊</item>
+        <item>8,%1$s已被禁言</item>
+        <item>9,%1$s已被移除禁言</item>
+        <item>10,该群已开启禁言</item>
+        <item>11,该群已解除禁言</item>
+        <item>12,%1$s被移出了群聊</item>
+    </string-array>
+
+    <string-array name="qx_day">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+
+    <string name="qx_cancel">取消</string>
+    <string name="qx_send">发送</string>
+    <string name="qx_back">返回</string>
+    <string name="qx_hint">提示</string>
+    <string name="qx_confirm">确定</string>
+    <string name="qx_save">保存</string>
+    <string name="qx_permission_request">请申请权限</string>
+
+    <string name="qx_duration">时长</string>
+    <string name="qx_date">日期</string>
+    <string name="qx_time">时间</string>
+    <string name="qx_time_early_moning">凌晨</string>
+    <string name="qx_time_moning">早上</string>
+    <string name="qx_time_noon">中午</string>
+    <string name="qx_time_afternoon">下午</string>
+    <string name="qx_time_night">晚上</string>
+    <string name="qx_time_yesterday">昨天%s</string>
+    <string name="qx_time_format">M月d日 HH:mm</string>
+    <string name="qx_time_format_1">yyyy年M月d日 HH:mm</string>
+    <string name="qx_time_format_2">M月d日</string>
+    <string name="qx_time_format_3">yyyy年M月d日</string>
+
+    <string name="qx_record_audio_release_send">松开发送</string>
+    <string name="qx_record_audio_press">按住说话</string>
+    <string name="qx_record_audio_end">结束录音:</string>
+    <string name="qx_record_time_short">录制时间太短</string>
+    <string name="qx_record_finger_slideup_cancel_send">手指上滑，取消发送</string>
+    <string name="qx_record_audio_release_cancel_send">松开手指，取消发送</string>
+    <string name="qx_record_audio_slideup_cancel_send">手指上滑，取消发送</string>
+
+    <string name="qx_delete_success">删除成功</string>
+    <string name="qx_delete_fail">删除失败</string>
+
+    <string name="qx_input_ing">对方正在输入...</string>
+    <string name="qx_message_system">系统消息</string>
+    <string name="qx_message_broadcast">【广播消息】</string>
+    <string name="qx_message_delete_remote_success">删除远程消息成功</string>
+    <string name="qx_message_delete_remote_fail">删除远程消息失败</string>
+    <string name="qx_message_recall">撤回消息</string>
+    <string name="qx_message_not_support">未知类型消息</string>
+    <string name="qx_message_unread_atto">有人@我</string>
+    <string name="qx_message_unread_msg">%1$d条未读消息</string>
+
+    <string name="qx_provider_collect_not_implement">收藏提供者未设置</string>
+    <string name="qx_provider_chat_bg_not_implement">聊天背景提供者未设置</string>
+    <string name="qx_provider_upload_not_implement">未设置上传提供者</string>
+
+    <string name="qx_error_param">返回的会话类型有误：%s</string>
+    <string name="qx_error_location_data">位置消息为空</string>
+
+    <string name="qx_copy_success">复制成功</string>
+    <string name="qx_copy_fail">复制失败：非文字消息</string>
+
+    <string name="qx_collect_success">收藏成功</string>
+    <string name="qx_collect_fail">收藏失败</string>
+    <string name="qx_recall_fail">撤回失败，错误码：%1$d 错误信息：%2$s</string>
+
+    <string name="qx_open_other_app">用其他应用打开</string>
+    <string name="qx_open_file_not_support_open">无法打开该格式文件</string>
+
+    <string name="qx_download_fail">下载失败：%1$d,%2$s</string>
+    <string name="qx_download_done">下载完成</string>
+    <string name="qx_download_save_path">已保存到:%s</string>
+
+    <string name="qx_forbid">你已被禁言，暂时无法发消息</string>
+    <string name="qx_group_forbid_all_joined">你已被全局禁言，在所加入的群中都不能发消息</string>
+    <string name="qx_group_forbid_open">本群开启全体禁言，所有人无法发送消息</string>
+    <string name="qx_group_forbid">你已被禁言，在本群中无法发消息</string>
+
+    <string name="qx_chatroom_forbid_exit">你已被封禁，被踢出聊天室</string>
+    <string name="qx_chatroom_forbid_join">你已被接触封禁，可以继续加入聊天室</string>
+    <string name="qx_chatroom_destory">聊天室已销毁</string>
+    <string name="qx_chatroom_forbid_all_joined">你已被全局禁言，在你所加入的聊天室中都不能发消息</string>
+    <string name="qx_chatroom_forbid_everyone">你已禁言，在本聊天室中都不能发消息</string>
+
+    <string name="qx_geo_screenshot_fail">地图截取失败</string>
+    <string name="qx_geo_pick_location">选取位置</string>
+    <string name="qx_geo_infomation">位置信息</string>
+
+    <string name="qx_upload_fail">上传失败，错误码：%1$d 错误信息：%2$s</string>
+
+    <string name="qx_emotion_add">添加表情</string>
+
+    <string name="qx_voip_time">聊天时长：</string>
+
+    <string name="qx_is_exist">已存在</string>
+
+    <string name="qx_voip_occupying">声音通道被占用，请稍后再试</string>
+
+    <string name="qx_permission_grant_needed">您需要在设置中打开权限</string>
+    <string name="qx_permission_microphone">（麦克风）。</string>
+    <string name="qx_permission_microphone_and_camera">（麦克风，相机）。</string>
+    <string name="qx_permission_camera">（相机）。</string>
+
+    <string name="qx_image_default_saved_path">/TQXD/QXIM/Image/</string>
+    <string name="qx_video_default_saved_path">/TQXD/QXIM/Video/</string>
+    <string name="qx_file_default_saved_path">/TQXD/QXIM/File/</string>
+
+    <string name="qx_picprev_origin">原图</string>
+    <string name="qx_picprev_origin_size">原图(%s)</string>
+    <string name="qx_picprev_select">选择</string>
+    <string name="qx_picsel_catalog_allpic">所有图片</string>
+    <string name="qx_picsel_catalog_number">%d张</string>
+    <string name="qx_picsel_pictype">图片和视频</string>
+    <string name="qx_picsel_selected_max_gif_size_span_with_param">该 GIF 图尺寸过大，无法发送</string>
+    <string name="qx_picsel_selected_max_pic_count">您最多只能选择9张图片</string>
+    <string name="qx_picsel_selected_max_time_span">不能分享超过5分钟的视频</string>
+    <string name="qx_picsel_selected_max_time_span_with_param">不能分享超过%d分钟的视频</string>
+    <string name="qx_picsel_take_picture">拍摄照片</string>
+    <string name="qx_picsel_toolbar">图片和视频</string>
+    <string name="qx_picsel_toolbar_preview">预览</string>
+    <string name="qx_picsel_toolbar_preview_num">预览(%d)</string>
+    <string name="qx_picsel_toolbar_send">发送</string>
+    <string name="qx_picsel_toolbar_send_num">发送(%d/9)</string>
+    <string name="qx_picsel_video_corrupted">不能分享损坏的视频</string>
+    <string name="qx_authorities_fileprovider">.FileProvider</string>
+    <string name="qx_voip_cpu_error">很抱歉，该功能暂时不支持您的机型</string>
+    <string name="qx_voip_call_audio_start_fail">正在进行语音通话，请稍后再试</string>
+    <string name="qx_voip_call_video_start_fail">正在进行视频通话，请稍后再试</string>
+
+    <string name="qx_msg_send_failed_no_access_group">你已被移出该群</string>
+    <string name="qx_msg_send_failed_no_access_chat_room">你已被移出直播间</string>
+
+    <string name="qx_msg_send_failed_no_exist_group">该群已经被解散</string>
+    <string name="qx_msg_send_failed_no_exist_chat_room">直播间已关闭</string>
+    <string name="qx_msg_send_failed_time_out">发送超时</string>
+    <string name="qx_msg_send_failed_mute">你已被禁言</string>
+    <string name="qx_msg_send_failed_not_support_message_type">未支持消息类型</string>
+    <string name="qx_msg_send_failed_content_too_long">消息过长或过大</string>
+    <string name="qx_msg_send_failed_black_list">发送失败</string>
+    <string name="qx_msg_send_failed_param_error">参数有误</string>
+    <string name="qx_error_duplicate_auth">不可重复认证</string>
+    <string name="qx_error_db_not_found">找不到该数据</string>
+    <string name="qx_error_file_uri_not_found">找不到文件</string>
+    <string name="qx_error_recall_failed">撤回失败</string>
+
+    <string name="qx_group_remove_member_positive">你将%1$s移出了群聊</string>
+    <string name="qx_group_remove_member_negative">你已被%1$s移出了群聊</string>
+    <bool name="qx_media_selector_contain_video">true</bool>
+    <bool name="qx_sound_in_foreground">false</bool>
+    <string name="qx_notification_channel_name">新消息</string>
+    <string name="qx_notification_ticker_text">您有一条新消息</string>
+    <string name="qx_notification_new_msg">[%1$d条]%2$s</string>
+    <string name="qx_notification_new_plural_msg">%1$d个联系人发来了%2$d条消息</string>
+
+    <string name="take_photo_view_btn">单击拍照，长按录像</string>
+
+    <!-- 导航相关-->
+    <string name="navigation_google">谷歌地图</string>
+    <string name="navigation_gaode">高德地图</string>
+    <string name="navigation_baidu">百度地图</string>
+    <string name="navigation_tenxun">腾讯地图</string>
+    <string name="navigation_sogo">搜狗地图</string>
+
+    <!-- 对话框提示-->
+    <string name="dialog_title_tips">提示</string>
+    <string name="dialog_content">您的设备还没有地图相关软件 请前往应用市场下载</string>
+    <string name="dialog_know">我知道了</string>
+
+    <!-- 边界值限定-->
+    <string name="qx_error_file_exceeded">文件限定不能超过%1$sM</string>
+    <string name="qx_error_video_exceeded">视频限定不能超过%1$s分钟</string>
+    <string name="qx_error_image_exceeded">图片限定不能超过%1$sM</string>
+    <string name="chat_file_detail_filesize">文件大小：%1$s</string>
+    <string name="chat_file_detail_download">下载</string>
+    <string name="chat_file_detail_open">打开</string>
+    <string name="chat_confirm_dialog_title">请再次确认删除消息</string>
+    <string name="qx_permission_manage_all_file">请授予%1$s所有文件的管理权限，否则无法正常使用相关功能。</string>
+    <string name="qx_un_support_message_type">该消息类型不支持此操作</string>
+
+    <string name="qx_loading">加载中...</string>
+    <string name="qx_load_fail">加载失败</string>
+
+</resources>

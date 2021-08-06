@@ -1,0 +1,319 @@
+<resources>
+
+    <!--消息列表-->
+    <string name="qx_message_official_flag">"Fonctionnaire"</string>
+    <string name="qx_message_status_failed">"!"</string>
+
+    <string name="qx_message_voice_duration">"%1$d″"</string>
+
+    <string name="qx_message_call_canceled">"Annulé"</string>
+    <string name="qx_message_call_refuse">"Refusé"</string>
+    <string name="qx_message_call_error">"Exception de connexion"</string>
+    <string name="qx_message_call_interrupt">"Débranchez"</string>
+    <string name="qx_message_call_not_responding">"L'autre partie n'a pas répondu."</string>
+    <string name="qx_message_call_accepted">"La durée de l'appel %1$s"</string>
+    <string name="qx_message_call_busy">Autre partie occupée</string>
+
+    <string name="qx_str_not_openfile">" impossible de trouver un programme ouvert"</string>
+
+    <string name="qx_chat_bottom_bar_pressed_to_talk">"tenir le bas et parler"</string>
+    <string name="qx_chat_bottom_bar_send">"envoyer"</string>
+    <string name="qx_chat_bottom_bar_send_tips_ban">"Le message contient du contenu sensible et ne peut pas être envoyé!"</string>
+    <string name="qx_chat_bottom_bar_mute">Muet tous les membres</string>
+
+    <!--群公告-->
+    <string name="qx_chat_group_notice">"Annonce de groupe：%1$s"</string>
+
+    <!--聊天UI底部添加面板-->
+    <string name="qx_chat_group_title">"%1$s(%2$d)"</string>
+
+    <!--聊天UI底部添加面板-->
+    <string name="qx_chat_add_panel_image_text">"Test d'image et de texte "</string>
+    <string name="qx_chat_add_panel_gallery">"Album photo"</string>
+    <string name="qx_chat_add_panel_shot">"Lancer"</string>
+    <string name="qx_chat_add_panel_audio_call">"Appel vocal"</string>
+    <string name="qx_chat_add_panel_video_call">"Appel vidéo"</string>
+    <string name="qx_chat_add_panel_location">"Emplacement"</string>
+    <string name="qx_chat_add_panel_file">"Fichier"</string>
+    <string name="qx_chat_add_panel_red_paper">"Paquet rouge"</string>
+
+    <!--申请权限-->
+    <string name="qx_permission_ok">"Autoriser "</string>
+    <string name="qx_permission_close">"Rejeter"</string>
+    <string name="qx_permission_setting">"Demande de réglage des permissions"</string>
+    <string name="qx_permission_record_camera">"Application pour les permissions d'enregistrement, de tournage et de géolocalisation"</string>
+
+    <!--图文消息类型-->
+    <string name="qx_image_text_type_social">"Communauté"</string>
+    <string name="qx_image_text_type_activity">"Dynamique"</string>
+    <string name="qx_image_text_type_live">"LVB"</string>
+    <string name="qx_image_text_type_recommend">"Recommander"</string>
+    <string name="qx_image_text_type_unknown">"Inconnu"</string>
+
+    <!--消息长按弹框-->
+    <string name="qx_msg_pop_emoji">"Ajouter"</string>
+    <string name="qx_msg_pop_copy">"Copier"</string>
+    <string name="qx_msg_pop_reply">"Répondre"</string>
+    <string name="qx_msg_pop_retransmission">"En avant"</string>
+    <string name="qx_msg_pop_favorite">"Favoris"</string>
+    <string name="qx_msg_pop_check">"Sélectionnez plusieurs"</string>
+    <string name="qx_msg_pop_recall">"Annuler "</string>
+    <string name="qx_msg_pop_delete">"Supprimer"</string>
+
+    <string name="qx_msg_text_max_length">"La longueur du texte ne peut pas dépasser %1$d caractères"</string>
+
+    <!--回复-->
+    <string name="qx_reply_text">"%1$s：%2$s"</string>
+    <string name="qx_reply_image">"%1$s：[%1$d]"</string>
+    <string name="qx_reply_image_text">"%1$s：[lien]%2$s"</string>
+    <string name="qx_reply_audio">"%1$s：[phonétique]"</string>
+    <string name="qx_reply_video">"%1$s：[vidéo]"</string>
+    <string name="qx_reply_file">"%1$s：[fichier]%2$s"</string>
+    <string name="qx_reply_geo">"%1$s：[lieu]%2$s"</string>
+    <string name="qx_reply_record">"%1$s：[transcription du chat]"</string>
+
+    <!--转发聊天记录-->
+    <string name="qx_record_tips">"Histoire de chat"</string>
+    <string name="qx_record_title_private">"Histoire de chat pour %1$s et %2$s"</string>
+    <string name="qx_record_title_group">"Historique de chat de"</string>
+    <string name="qx_record_item">"%1$s：%2$s"</string>
+
+    <string name="qx_name_record_btn_one_by_one">"Transmettre un par un"</string>
+    <string name="qx_name_record_btn_combine">"Fusionner le transfert"</string>
+    <string name="qx_name_record_btn_cancel">"Annuler"</string>
+
+
+    <string name="qx_target_name_system">"Message système"</string>
+    <string name="qx_target_name_chatroom">"Chat room"</string>
+
+    <string name="qx_target_name_image">"[image]"</string>
+    <string name="qx_target_name_image_text">"[lien]%1$s"</string>
+    <string name="qx_target_name_voice">"[voix]"</string>
+    <string name="qx_target_name_video">"[vidéo]"</string>
+    <string name="qx_target_name_file">"[fichier]%1$s"</string>
+    <string name="qx_target_name_geo">"[lieu]%1$s"</string>
+    <string name="qx_target_name_notice">"[notification]%1$s"</string>
+    <string name="qx_target_name_record">"[transcription du chat]"</string>
+    <string name="qx_target_name_call_audio">"[appel vocal]"</string>
+    <string name="qx_target_name_call_video">"[appel vidéo]"</string>
+
+    <string name="qx_record_msg_type_voice">"[Voix]"</string>
+    <string name="qx_record_msg_type_video">"Fréquence vidéo"</string>
+    <string name="qx_at_to_all">"@ tout le monde"</string>
+
+    <string name="qx_conversation_at_to_all">"[@ tout le monde]"</string>
+    <string name="qx_conversation_at_to_me">"[Quelqu'un @ moi]"</string>
+
+    <string name="qx_send_failed">"Impossible d'envoyer：%1$s"</string>
+    <string name="qx_upload_failed">"L'envoi a échoué：%1$s"</string>
+    <string name="qx_download_failed">"échec du téléchargement：%1$s"</string>
+
+    <string name="qx_file_uri_not_found">"Le fichier a été déplacé et ne peut être trouvé"</string>
+
+    <string name="qx_recall_by_user">"Vous avez retiré un message"</string>
+    <string name="qx_recall_by_other">"%1$sUn message a été retiré."</string>
+
+    <!--//通知消息类型 1),//加入聊天室	2),//退出聊天室	3),//群组解散 4),//群组同步  5),//群组创建
+    6),//加入群组7),//退出群组 8),//群组成员禁言（添加）9),//群组成员禁言（移除）10),//群组整体禁言（添加）11);//群组整体禁言（移除）-->
+    <string-array name="qx_notice_content">"
+        <item>"1,%1$sJ'ai rejoint le chat room"</item>
+        <item>"2,%1$sQuitte le chat room"</item>
+        <item>"3,La discussion de groupe a été dissoute"</item>
+        <item>"4,Synchronisation du chat de groupe"</item>
+        <item>"5,%1$sCréation d'un chat de groupe."</item>
+        <item>"6,%1$sJ'ai rejoint le groupe de discussion"</item>
+        <item>"7,%1$sQuitter le chat"</item>
+        <item>"8,%1$sA été interdit"</item>
+        <item>"9,%1$sLe tabou a été supprimé"</item>
+        <item>"10,Ce groupe a été interdit"</item>
+        <item>"11,Le groupe a levé l'interdiction"</item>
+        <item>"12,%1$sA été retiré du Groupe"</item>
+    </string-array>
+
+    <string-array name="qx_day">
+        <item>"dimanche"</item>
+        <item>"lundi "</item>
+        <item>"mardi"</item>
+        <item>"mercredi"</item>
+        <item>"jeudi"</item>
+        <item>"vendredi"</item>
+        <item>"samedi"</item>
+    </string-array>
+
+
+    <string name="qx_cancel">" annuler"</string>
+    <string name="qx_send">"envoyer"</string>
+    <string name="qx_back">"renvoie"</string>
+    <string name="qx_hint">"prompt"</string>
+    <string name="qx_confirm">"OK"</string>
+    <string name="qx_save">Enregistrer</string>
+    <string name="qx_permission_request">"Veuillez demander la permission"</string>
+
+    <string name="qx_duration">"durée"</string>
+    <string name="qx_date">"date"</string>
+    <string name="qx_time">"time"</string>
+    <string name="qx_time_early_moning">"Tôt le matin"</string>
+    <string name="qx_time_moning">"Le matin"</string>
+    <string name="qx_time_noon">"à midi"</string>
+    <string name="qx_time_afternoon">"Bonjour"</string>
+    <string name="qx_time_night">"La nuit"</string>
+    <string name="qx_time_yesterday">"Hier%s"</string>
+    <string name="qx_time_format">"M/d HH:mm"</string>
+    <string name="qx_time_format_1">"yyyy/M/d HH:mm"</string>
+    <string name="qx_time_format_2">"M/d"</string>
+    <string name="qx_time_format_3">"yyyy/M/d"</string>
+
+    <string name="qx_record_audio_release_send">"Envoyer"</string>
+    <string name="qx_record_audio_press">"Ne bougez pas et parlez."</string>
+    <string name="qx_record_audio_end">"Fin de l'enregistrement:"</string>
+    <string name="qx_record_time_short">"Le temps d'enregistrement est trop court"</string>
+    <string name="qx_record_finger_slideup_cancel_send">"Faites glisser vos doigts vers le haut et annulez l'envoi"</string>
+    <string name="qx_record_audio_release_cancel_send">"Relâchez votre doigt et annulez l'envoi"</string>
+    <string name="qx_record_audio_slideup_cancel_send">"Relâchez le doigt, faites glisser le doigt vers le haut, et annulez l'envoi."</string>
+
+    <string name="qx_delete_success">"Supprimé avec succès"</string>
+    <string name="qx_delete_fail">"La suppression a échoué"</string>
+
+    <string name="qx_input_ing">"L'autre partie entre..."</string>
+    <string name="qx_message_system">"Message système"</string>
+    <string name="qx_message_broadcast">"【Message diffusé】"</string>
+    <string name="qx_message_delete_remote_success">"Message distant supprimé avec succès"</string>
+    <string name="qx_message_delete_remote_fail">"Impossible de supprimer le message distant"</string>
+    <string name="qx_message_recall">"Rappelez le message"</string>
+    <string name="qx_message_not_support">"Message type inconnu"</string>
+    <string name="qx_message_unread_atto">"Quelqu'un a parlé de moi."</string>
+    <string name="qx_message_unread_msg">%1$d messages non lus</string>
+
+    <string name="qx_provider_collect_not_implement">"Le fournisseur de collecte n'est pas défini"</string>
+    <string name="qx_provider_chat_bg_not_implement">"Le fournisseur d'arrière-plan de chat n'est pas défini"</string>
+    <string name="qx_provider_upload_not_implement">"Aucun fournisseur de téléchargement n'est défini"</string>
+
+    <string name="qx_error_param">"Le type de session incorrect retourné par le fournisseur d'envoi n'est pas défini：%s"</string>
+    <string name="qx_error_location_data">"Le message de localisation est vide"</string>
+
+    <string name="qx_copy_success">"Copier avec succès"</string>
+    <string name="qx_copy_fail">"La réplication a échoué：Message non texte"</string>
+
+    <string name="qx_collect_success">"Collecte réussie"</string>
+    <string name="qx_collect_fail">"La collecte a échoué"</string>
+    <string name="qx_recall_fail">"Le retrait a échoué，Code d'erreur：%1$d Message d'erreur：%2$s"</string>
+
+    <string name="qx_open_other_app">"Ouvrez-le avec d'autres applications"</string>
+    <string name="qx_open_file_not_support_open">"Impossible d'ouvrir le fichier format"</string>
+
+    <string name="qx_download_fail">"échec du téléchargement：%1$d,%2$s"</string>
+    <string name="qx_download_done">"Téléchargement terminé"</string>
+    <string name="qx_download_save_path">"Enregistré dans:%s"</string>
+
+    <string name="qx_forbid">"Vous avez été banni et vous ne pouvez pas envoyer de message pour le moment."</string>
+    <string name="qx_group_forbid_all_joined">"Vous avez été banni du monde entier, et vous ne pouvez pas envoyer de messages dans le groupe que vous rejoignez"</string>
+    <string name="qx_group_forbid_open">"Ce groupe ouvre une interdiction de la parole, et tout le monde n'est pas en mesure d'envoyer un message"</string>
+    <string name="qx_group_forbid">"Vous avez été interdit d'envoyer des messages dans ce groupe"</string>
+
+    <string name="qx_chatroom_forbid_exit">"Vous avez été banni et viré du chat room"</string>
+    <string name="qx_chatroom_forbid_join">"Vous avez été bloqué, vous pouvez continuer à rejoindre le chat room"</string>
+    <string name="qx_chatroom_destory">"Le salon de discussion a été détruit"</string>
+    <string name="qx_chatroom_forbid_all_joined">"Vous avez été interdit du monde entier, et vous ne pouvez même pas envoyer de messages dans le chat room que vous avez rejoint"</string>
+    <string name="qx_chatroom_forbid_everyone">"Vous avez été banni. Vous ne pouvez même pas envoyer de messages dans ce chat room"</string>
+
+    <string name="qx_geo_screenshot_fail">"Impossible d'intercepter la carte"</string>
+    <string name="qx_geo_pick_location">"Sélectionner la position"</string>
+    <string name="qx_geo_infomation">"Renseignements sur l'emplacement"</string>
+
+    <string name="qx_upload_fail">"Le téléchargement a échoué, code d'erreur：%1$d Message d'erreur：%2$s"</string>
+
+    <string name="qx_emotion_add">"Ajouter des émoticônes"</string>
+
+    <string name="qx_voip_time">"L'heure de la discussion："</string>
+
+    <string name="qx_is_exist">"Existe déjà"</string>
+
+    <string name="qx_voip_occupying">"Le canal sonore est occupé. Veuillez réessayer ultérieurement."</string>
+
+    <string name="qx_permission_grant_needed">"Vous devez activer les permissions dans les paramètres"</string>
+    <string name="qx_permission_microphone">"（Microphone）。"</string>
+    <string name="qx_permission_microphone_and_camera">"（Microphone, Caméra）。"</string>
+    <string name="qx_permission_camera">"（Caméra）。"</string>
+
+    <string name="qx_image_default_saved_path">"/TQXD/QXIM/Image/"</string>
+    <string name="qx_video_default_saved_path">"/TQXD/QXIM/Video/"</string>
+    <string name="qx_file_default_saved_path">"/TQXD/QXIM/File/"</string>
+
+    <string name="qx_picprev_origin">"Dessin original"</string>
+    <string name="qx_picprev_origin_size">"Dessin original(%s)"</string>
+    <string name="qx_picprev_select">"Sélectionner"</string>
+    <string name="qx_picsel_catalog_allpic">"Toutes les photos"</string>
+    <string name="qx_picsel_catalog_number">"%d张"</string>
+    <string name="qx_picsel_pictype">"Photos et vidéos"</string>
+    <string name="qx_picsel_selected_max_gif_size_span_with_param">"La taille du diagramme GIF est trop grande pour être envoyée"</string>
+    <string name="qx_picsel_selected_max_pic_count">"Vous ne pouvez sélectionner qu'un maximum de 9 images"</string>
+    <string name="qx_picsel_selected_max_time_span">"Impossible de partager plus de 5 minutes de vidéo"</string>
+    <string name="qx_picsel_selected_max_time_span_with_param">"Impossible de partager des vidéos pendant plus de %d minutes"</string>
+    <string name="qx_picsel_take_picture">"Prends une photo"</string>
+    <string name="qx_picsel_toolbar">"Photos et vidéos"</string>
+    <string name="qx_picsel_toolbar_preview">"Aperçu"</string>
+    <string name="qx_picsel_toolbar_preview_num">"Aperçu(%d)"</string>
+    <string name="qx_picsel_toolbar_send">"Envoyer"</string>
+    <string name="qx_picsel_toolbar_send_num">"Envoyer(%d/9)"</string>
+    <string name="qx_picsel_video_corrupted">"Impossible de partager les vidéos endommagées"</string>
+    <string name="qx_authorities_fileprovider">".FileProvider"</string>
+    <string name="qx_voip_cpu_error">"Désolé, cette fonctionnalité ne supporte pas votre modèle pour le moment"</string>
+    <string name="qx_voip_call_audio_start_fail">"Appel vocal en cours. Veuillez réessayer ultérieurement"</string>
+    <string name="qx_voip_call_video_start_fail">"Appel vidéo en cours. Veuillez réessayer ultérieurement"</string>
+
+    <string name="qx_msg_send_failed_no_access_group">Vous avez été retiré du Groupe</string>
+    <string name="qx_msg_send_failed_no_access_chat_room">Vous avez été retiré de la salle de diffusion en direct.</string>
+
+    <string name="qx_msg_send_failed_no_exist_group">Ce groupe a été licencié</string>
+    <string name="qx_msg_send_failed_no_exist_chat_room">Fermeture de la salle de diffusion en direct</string>
+    <string name="qx_msg_send_failed_time_out">"Envoyer un message d 'attente"</string>
+    <string name="qx_msg_send_failed_mute">Vous avez été muet dans le groupe</string>
+    <string name="qx_msg_send_failed_not_support_message_type">Le type de messages qui ne sont pas actuellement pris en charge</string>
+    <string name="qx_msg_send_failed_content_too_long">Le message est trop long ou trop grand</string>
+    <string name="qx_msg_send_failed_black_list">Envoyer un échec</string>
+    <string name="qx_msg_send_failed_param_error">Erreur de paramètre</string>
+    <string name="qx_error_duplicate_auth">Ne peut être vérifié à plusieurs reprises</string>
+    <string name="qx_error_db_not_found">Impossible de localiser ces données</string>
+    <string name="qx_error_file_uri_not_found">Impossible de localiser le fichier</string>
+    <string name="qx_error_recall_failed">échec du retrait</string>
+
+    <string name="qx_group_remove_member_positive">Vous avez supprimé %1$s de ce chat de groupe</string>
+    <string name="qx_group_remove_member_negative">Vous avez été retiré %1$s de ce chat de groupe</string>
+    <bool name="qx_media_selector_contain_video">true</bool>
+    <bool name="qx_sound_in_foreground">false</bool>
+    <string name="qx_notification_channel_name">Nouveaux messages</string>
+    <string name="qx_notification_ticker_text">Vous avez un nouveau message</string>
+    <string name="qx_notification_new_msg">[%1$d morceau de messages]%2$s</string>
+    <string name="qx_notification_new_plural_msg">%1$d Nombre de contacts ont envoyé %2$d morceau de messages</string>
+
+    <string name="take_photo_view_btn">"Un simple clic pour prendre la photo, appuyez plus longtemps à l'enregistrement."</string>
+
+    <!-- 导航相关-->
+    <string name="navigation_google">Carte Google.</string>
+    <string name="navigation_gaode">AMAP.</string>
+    <string name="navigation_baidu">Carte Baidu.</string>
+    <string name="navigation_tenxun">Carte de Tencent.</string>
+    <string name="navigation_sogo">Carte de Sougou.</string>
+
+    <!-- 对话框提示-->
+    <string name="dialog_title_tips">Conseils.</string>
+    <string name="dialog_content">"Votre appareil n'a pas d'applications Map associées, veuillez vous rendre à l'APP Store pour télécharger."</string>
+    <string name="dialog_know">"J'ai compris."</string>
+
+    <!-- 边界值限定-->
+    <string name="qx_error_file_exceeded">La limite de taille du document ne peut pas être supérieure à %1$sM</string>
+    <string name="qx_error_video_exceeded">La taille de la vidéo ne peut pas être supérieure à %1$smin</string>
+    <string name="qx_error_image_exceeded">"La taille de l'image limitée ne peut pas être supérieure à %1$sM"</string>
+
+    <!-- 删除消息确认框-->
+    <string name="chat_confirm_dialog_title">Veuillez confirmer à nouveau le message de suppression.</string>
+    <string name="chat_file_detail_filesize">"Taille du fichier:%1$s. "</string>
+    <string name="chat_file_detail_download">"Télécharger. "</string>
+    <string name="chat_file_detail_open">"Ouvrez. "</string>
+    <string name="qx_permission_manage_all_file">Veuillez accorder les droits administratifs à% 1 $s pour tous les fichiers, sinon vous ne serez pas en mesure d\'utiliser correctement les fonctionnalités connexes.</string>
+    <string name="qx_un_support_message_type">이 작업은 메시지 유형에서 지원되지 않습니다.</string>
+
+    <string name="qx_loading">En charge …</string>
+    <string name="qx_load_fail">Échec du chargement</string>
+    <string name="qx_load_request_fail">La requête a échoué</string>
+</resources>
