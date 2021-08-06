@@ -2,8 +2,9 @@ package com.qx.im.model
 
 import com.google.gson.Gson
 import com.qx.im.model.json.JSonMessage
-import com.qx.imlib.db.entity.MessageEntity
-import com.qx.imlib.db.entity.TBImageMessage
+import com.qx.imlib.db.entity.*
+import com.qx.imlib.qlog.QLog
+
 import com.qx.imlib.utils.MessageConvertUtil
 import com.qx.message.*
 import java.lang.Exception
