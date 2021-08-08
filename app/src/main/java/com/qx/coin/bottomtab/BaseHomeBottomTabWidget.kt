@@ -8,10 +8,10 @@ import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.qx.coin.R
-import com.qx.coin.fragment.ChatFragment
-import com.qx.coin.fragment.FindFragment
-import com.qx.coin.fragment.MeFragment
-import com.qx.coin.fragment.WealthFragment
+import com.qx.imui.fragment.ChatFragment
+import com.qx.imui.fragment.FindFragment
+import com.qx.imui.fragment.MeFragment
+import com.qx.imui.fragment.WealthFragment
 
 abstract class BaseHomeBottomTabWidget @JvmOverloads constructor(
     context: Context?,

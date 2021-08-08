@@ -1,4 +1,4 @@
-package com.qx.coin.activity
+package com.qx.coin
 
 
 import android.annotation.SuppressLint
@@ -6,7 +6,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.KeyEvent
-import com.qx.coin.R
 import com.qx.imui.base.BaseActivity
 import com.qx.imui.base.showToast
 import com.qx.coin.bottomtab.MainViewModel
@@ -24,18 +23,19 @@ class MainActivity : BaseActivity() {
         homeView.init(supportFragmentManager, viewModel)
     }
 
-    override fun initData() {
-        super.initData()
-        OkhttpUtils.getUsers(object : HttpCallback<String> {
-            override fun onSuccess(t: String) {
+//    override fun initData() {
+//        super.initData()
+//        OkhttpUtils.getUsers(object : HttpCallback<String> {
+//            override fun onSuccess(t: String) {
+//
+//            }
+//
+//            override fun onError(errorCode: Int, message: String) {
+//            }
+//
+//        })
+//    }
 
-            }
-
-            override fun onError(errorCode: Int, message: String) {
-            }
-
-        })
-    }
     @SuppressLint("MissingSuperCall")
     override fun onSaveInstanceState(outState: Bundle) {
         //super.onSaveInstanceState(outState)  // 解决fragment重影
