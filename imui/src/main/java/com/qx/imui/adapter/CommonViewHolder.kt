@@ -15,7 +15,6 @@ import com.qx.im.model.QXUserInfo
 import com.qx.imui.QXContext
 import com.qx.imui.QXIMKit
 import com.qx.imui.R
-import com.qx.imui.manager.userinfo.QXUserInfoManager
 import com.qx.imui.plugin.CustomMessageManager
 import com.qx.imui.util.ToastUtil
 import com.qx.imui.util.glide.GlideUtil

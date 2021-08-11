@@ -8,7 +8,6 @@ import com.qx.im.model.QXGroupUserInfo
 import com.qx.im.model.QXUserInfo
 import com.qx.imui.R
 import com.qx.imui.bean.RecordExtra
-import com.qx.imui.manager.userinfo.QXUserInfoManager
 import com.qx.message.*
 import java.lang.Exception
 

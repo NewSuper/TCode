@@ -8,8 +8,6 @@ import com.google.gson.reflect.TypeToken;
 import com.qx.im.model.QXGroupUserInfo;
 import com.qx.imui.QXIMKit;
 import com.qx.imui.R;
-import com.qx.imui.util.SPUtils;
-import com.qx.imui.util.StringUtils;
 import com.qx.message.NoticeMessage;
 
 import java.util.ArrayList;
@@ -43,18 +41,22 @@ public class NoticeUtil {
         }
     }
 
-    private static final String TAG = "NoticeUtil";
-    private static String cacheLanguage;
     private static ArrayList<NoticeContent> noticeContents = new ArrayList<>();
 
     public static String getNoticeContent(String targetId, NoticeMessage notice, Context context) {
-        String language = SPUtils.getCacheLanguage(context);
+//        String language = SPUtils.getCacheLanguage(context);
+//        if (noticeContents == null ||
+//                noticeContents.size() == 0 ||
+//                (!StringUtils.isEmpty(language) && !language.equals(language))) {
+//            loadNoticeContents(context);
+//        }
+//        cacheLanguage = language;
+//        return getContent(targetId, notice, context);
+
         if (noticeContents == null ||
-                noticeContents.size() == 0 ||
-                (!StringUtils.isEmpty(language) && !language.equals(language))) {
+                noticeContents.size() == 0 ) {
             loadNoticeContents(context);
         }
-        cacheLanguage = language;
         return getContent(targetId, notice, context);
     }
 
