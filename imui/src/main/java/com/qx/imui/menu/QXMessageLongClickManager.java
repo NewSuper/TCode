@@ -97,7 +97,7 @@ public class QXMessageLongClickManager {
      * 创建默认菜单
      *
      * @param menuType
-     * @param desc
+     * @param
      * @param icon
      * @return
      */
