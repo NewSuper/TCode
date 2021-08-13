@@ -1,4 +1,4 @@
-package com.qx.imui.manager.rtc
+package com.qx.imui.plugin.rtc
 
 import android.content.Context
 import com.qx.imui.plugin.IPluginModule
