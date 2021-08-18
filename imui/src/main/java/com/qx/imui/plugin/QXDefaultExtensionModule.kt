@@ -2,7 +2,7 @@ package com.qx.imui.plugin
 
 import android.content.Context
 import com.qx.imui.QXExtension
-import com.qx.imui.manager.rtc.RTCModuleManager
+import com.qx.imui.plugin.rtc.RTCModuleManager
 import com.qx.imui.plugin.image.FilePlugin
 import com.qx.imui.plugin.image.ImagePlugin
 import com.qx.imui.plugin.image.LocationPlugin
