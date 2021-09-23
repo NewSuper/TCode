@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="rc_q_storage_mode_enable">true</bool>
-    <string name="rc_media_message_default_save_path">/TQXD/QXIM/Media/</string>
-</resources>
